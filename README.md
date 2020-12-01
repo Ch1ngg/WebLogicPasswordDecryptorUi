@@ -1,5 +1,5 @@
 # WebLogicPasswordDecryptorUi
-weblogic解密JAVA UI版,欢迎提交BUG。如果遇到密文倒数第二位有斜杠的话，请先删除再尝试解密。否则可能解密失败
+weblogic解密JAVA UI版,欢迎提交BUG。如果遇到密文倒数第二位有斜杠的话，请先删除斜杠再尝试解密。否则可能解密失败
 ![](20180313143338-76b76fb0-2688-1.png)
 
 
