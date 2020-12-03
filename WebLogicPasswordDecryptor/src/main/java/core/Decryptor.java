@@ -1,4 +1,4 @@
-package demo;
+package core;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import sun.misc.BASE64Decoder;
@@ -10,15 +10,11 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.security.Security;
+import java.security.*;
 import java.security.spec.InvalidKeySpecException;
 
 
-@SuppressWarnings("unused")
-public class WebLogicPasswordDecryptor {
+public class Decryptor {
 
 //    public static void main(String args[]) throws IOException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, InvalidKeySpecException, InvalidAlgorithmParameterException {
 //
@@ -38,7 +34,7 @@ public class WebLogicPasswordDecryptor {
 //        System.out.println(cleartext);
 //    }
 
-    public static String decryptAES(String SerializedSystemIni, String ciphertext) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidAlgorithmParameterException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, IOException {
+    public static String decryptAES(String SerializedSystemIni, String ciphertext) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidAlgorithmParameterException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, IOException, InvalidKeySpecException, NoSuchProviderException {
 
         byte[] encryptedPassword1 = new BASE64Decoder().decodeBuffer(ciphertext);
         byte[] salt = null;
@@ -92,8 +88,7 @@ public class WebLogicPasswordDecryptor {
 
     }
 
-    public static String decrypt3DES(String SerializedSystemIni, String ciphertext) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidAlgorithmParameterException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, IOException {
-
+    public static String decrypt3DES(String SerializedSystemIni, String ciphertext) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidAlgorithmParameterException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, IOException, InvalidKeySpecException, NoSuchProviderException {
         byte[] encryptedPassword1 = new BASE64Decoder().decodeBuffer(ciphertext);
         byte[] salt = null;
         byte[] encryptionKey = null;

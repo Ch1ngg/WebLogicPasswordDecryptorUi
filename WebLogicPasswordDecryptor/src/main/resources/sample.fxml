@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Controller">
+   <children>
+      <TextArea fx:id="msg_textarea" layoutX="14.0" layoutY="126.0" prefHeight="258.0" prefWidth="707.0" />
+      <TextField fx:id="text_datpath" layoutX="116.0" layoutY="14.0" prefHeight="27.0" prefWidth="516.0" />
+      <TextField fx:id="text_encryptcode" layoutX="116.0" layoutY="48.0" prefHeight="30.0" prefWidth="516.0" />
+      <Button fx:id="btn_select" layoutX="653.0" layoutY="12.0" mnemonicParsing="false" onAction="#selectdatfile" prefHeight="27.0" prefWidth="57.0" text="选择" />
+      <Button fx:id="btn_decrypt" layoutX="653.0" layoutY="47.0" mnemonicParsing="false" onAction="#decode" prefHeight="27.0" prefWidth="57.0" text="解密" />
+      <Label layoutX="14.0" layoutY="16.0" prefHeight="20.0" prefWidth="102.0" text="DAT文件">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="52.0" text="密文">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="90.0" text="PS: 如果遇到密文倒数第二位有斜杠的话，请先删除斜杠再尝试解密。否则可能解密失败" />
+   </children>
+</Pane>

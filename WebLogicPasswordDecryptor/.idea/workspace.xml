@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WebLogicPasswordDecryptor:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c18b6f1d-d36a-4865-8549-92b46d8994a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1l6jJbyRNaRQy8GkCokOHOjb7Gt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="WebLogicPasswordDecryptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c18b6f1d-d36a-4865-8549-92b46d8994a3" name="Default Changelist" comment="" />
+      <created>1606920986906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606920986906</updated>
+      <workItem from="1606920988108" duration="1778000" />
+      <workItem from="1606924368276" duration="2134000" />
+      <workItem from="1606926978944" duration="971000" />
+      <workItem from="1606968455825" duration="705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2055" y="98" key="#Project_Structure" timestamp="1606969161280">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="328" y="92" key="#Project_Structure/0.23.1680.975@0.23.1680.975" timestamp="1606925744138" />
+    <state x="2055" y="98" key="#Project_Structure/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969161280" />
+    <state x="2339" y="332" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606969159668">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="577" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.975@0.23.1680.975" timestamp="1606925196368" />
+    <state x="2339" y="332" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969159668" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1606969132243">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1606927812018" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969132243" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1606969132242">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1606927812017" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969132242" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1606969132241">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1606927812017" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969132241" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1606969132242">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1606927812018" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606969132242" />
+    <state x="2247" y="339" width="876" height="499" key="SettingsEditor" timestamp="1606968745617">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="0" y="23" width="1680" height="975" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1606923657083" />
+    <state x="2247" y="339" width="876" height="499" key="SettingsEditor/1680.23.1920.1057/0.23.1680.975@1680.23.1920.1057" timestamp="1606968745617" />
+  </component>
+</project>

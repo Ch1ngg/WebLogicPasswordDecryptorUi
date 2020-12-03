@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: ui.Main
+Class-Path: bcprov-jdk16-1.46.jar
+
