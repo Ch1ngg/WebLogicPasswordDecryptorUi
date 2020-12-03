@@ -1,5 +1,5 @@
 # WebLogicPasswordDecryptorUi
-WebLogicPasswordDecryptor 代码重构。变得好看了 :)
+WebLogicPasswordDecryptor 代码重构。变得好看了 :)。感谢鸭王的帮忙!
 ![](WechatIMG298.png)
 
 PS: 如果遇到密文倒数第二位有斜杠的话，请先删除斜杠再尝试解密。否则可能解密失败
